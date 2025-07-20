@@ -1,5 +1,11 @@
 import { PropertyProps } from "../interfaces";
 
+
+import HeroBackground from "../public/images/hero-bg.jpg"; // Adjust path based on your setup
+
+export const HERO_IMAGE = HeroBackground;
+
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
   {
     name: "Villa Ocean Breeze",
